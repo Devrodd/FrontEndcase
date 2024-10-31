@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+body {
+    background-color: #000;
+    color: #fff;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    
+}
+.sidebar {
+    width: 300px;
+    background-color: #121212;
+    padding: 10px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+}
+.nav-logo i{
+    font-size: 30px;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+.nav-library{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.nav-library i, .nav-library p {
+    color: #B7B3B6;
+    font-size: 15px;
+    cursor: pointer;
+}
+.nav-playlist, .nav-podcast {
+    background-color: #242424;
+    padding: 16px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Espaço entre as caixas */
+}
+.nav-playlist button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 6px 10px;
+    margin-top: 16px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 20px;
+}
+.nav-podcast button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 6px 10px;
+    margin-top: 16px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 20px;
+}
+.nav-playlist p, .nav-podcast p {
+    font-size: 14px;
+    
+}
+.nav-footer{
+    margin-top: auto;
+}
+
+.nav-footer a {
+    color: #a7a7a7;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 12px;
+    margin-bottom: 8px;
+}
+.nav-lang-button{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 8px 12px;
+    margin-top: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+
+
